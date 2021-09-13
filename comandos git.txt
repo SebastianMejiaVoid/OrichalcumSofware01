@@ -7,3 +7,5 @@ git add + nombre del archivo: guarda los cambios del archivo
 touch : crea un archivo
 git status: muestra el estado del proyecto
 git log: muestra los commit realizados
+git log --online: muestra una version corta del hash
+
