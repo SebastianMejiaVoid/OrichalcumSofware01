@@ -9,3 +9,5 @@ git status: muestra el estado del proyecto
 git log: muestra los commit realizados
 git log --online: muestra una version corta del hash
 git stash: guarda el estado del trabajo 
+git remote add origin: añade el repositorio remoto
+git push origin master: actualiza el repositorio remoto
