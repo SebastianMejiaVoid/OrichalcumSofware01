@@ -6,3 +6,4 @@ git add . : añade todos los cambios realizados
 git add + nombre del archivo: guarda los cambios del archivo
 touch : crea un archivo
 git status: muestra el estado del proyecto
+git log: muestra los commit realizados
