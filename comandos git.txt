@@ -1,0 +1,8 @@
+git init: para iniciar el repocitorio
+ls -la: muestra la lista de archivos en la carpeta
+git help: muestra la lista de comandos de git
+dcmk : crea una carpeta
+git add . : añade todos los cambios realizados 
+git add + nombre del archivo: guarda los cambios del archivo
+touch : crea un archivo
+git status: muestra el estado del proyecto
