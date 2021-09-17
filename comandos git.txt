@@ -4,7 +4,7 @@ git help: muestra la lista de comandos de git
 dcmk : crea una carpeta
 git add . : añade todos los cambios realizados 
 git add + nombre del archivo: guarda los cambios del archivo
-touch : crea un archivo
+touch :  crea un archivo
 git status: muestra el estado del proyecto
 git log: muestra los commit realizados
 git log --online: muestra una version corta del hash
