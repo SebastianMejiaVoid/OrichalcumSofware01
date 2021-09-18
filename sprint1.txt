@@ -27,5 +27,6 @@ cambios en este por medio de un archivo .txt.
 Integrantes:
 
 Sebastián Mejía / Scrum Master.
+Magda Cifuentes / Administrador BD
 
 
