@@ -1,13 +1,35 @@
-git init: para iniciar el repocitorio
-ls -la: muestra la lista de archivos en la carpeta
+git init: para iniciar el repositorio
 git help: muestra la lista de comandos de git
 dcmk : crea una carpeta
-git add . : añade todos los cambios realizados 
-git add + nombre del archivo: guarda los cambios del archivo
-touch :  crea un archivo
+git config --list: muestra la lista de configuraciones de git
+
 git status: muestra el estado del proyecto
+git status -s -b: muestra el estado del proyecto y la rama actual
+ls -la: muestra la lista de archivos en la carpeta
+touch :  crea un archivo
+
+
+git add: añade los cambios de un archivo en especifico
+git add . : añade todos los cambios realizados 
+git add -A: añade todos los cambios realizados
+git commit .a: hace el add y el commit al tiempo
+git commit -m "": realiza un commit con comentario
+git commit --amend: permite editar el commit
+git commit --amend -m "": permite modificar el commit sin abrir el editor
+git reset + hash: revierte un commit en especifico
+git diff: muesra los cambios realizados con respecto al repositorio 
+git diff --staged: muestra todos los cambios en stage
 git log: muestra los commit realizados
-git log --online: muestra una version corta del hash
+git log --oneline: muestra una version corta del hash
+git log --oneline --decorate --all --graph: muestra commit de diferentes ramas
+git config alias.myNewAlias "large comand": se apoda un comando largo reduciendo así su sintaxis
+git branch <newbranch>: crea una nueva rama
+git checkout <branch name>:cambiar a una rama especifica
+git checkout -b <new branch>: crea y cambia a la rama creada
+git rebase <branch>: actualiza la rama 
+git merge <nombre de rama a unir>: actuliza la rama master (se debe estar en la rama master)
+git tag <0.0.1>: asigna un tag a un commit 
 git stash: guarda el estado del trabajo 
 git remote add origin: añade el repositorio remoto
+git remote -v: muestra el repositorio en la nube
 git push origin master: actualiza el repositorio remoto
