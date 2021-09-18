@@ -1,0 +1,31 @@
+creacion del repositorio
+
+git init: inicializar el repositorio
+
+git config --global user.name: configurar nombre de usuario
+
+git config --global user.email: configurar email
+
+git config --global core.editor code: configurar el editor
+
+Luego de esto creamos los archivos basicos del repositorio
+
+touch .gitignore
+touch readme
+
+guardamos los cambios en estos archivos con el comando
+git add . 
+
+y realizamos el primer commit con el comando
+git commit -m "se agregaron los archivos basicos"
+
+configuramos nuestra cuenta de github 
+
+descargamos el repositorio y cada integrante realizó 
+cambios en este por medio de un archivo .txt.
+
+Integrantes:
+
+Sebastián Mejía / Scrum Master.
+
+
