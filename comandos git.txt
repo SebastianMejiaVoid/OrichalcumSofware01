@@ -33,3 +33,4 @@ git stash: guarda el estado del trabajo
 git remote add origin: añade el repositorio remoto
 git remote -v: muestra el repositorio en la nube
 git push origin master: actualiza el repositorio remoto
+git mv nomvre.txt nombre.txt: Cambiar el nombre de un archivo
