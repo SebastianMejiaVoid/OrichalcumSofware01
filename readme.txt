@@ -27,3 +27,4 @@ Sebastián Mejía / Scrum Master.
 Magda Cifuentes / Administrador BD
 carlos alberto velez muñoz / Desarrollador.
 Karen Lorena Ruiz Martinez / Analista
+Diana Alejandra Reyes Serrano / Product Owner
