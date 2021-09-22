@@ -1,4 +1,4 @@
-git init: para iniciar el repositorio
+﻿git init: para iniciar el repositorio
 git help: muestra la lista de comandos de git
 dcmk carpeta: crear una carpeta
 git config --list: muestra la lista de configuraciones de git
@@ -9,7 +9,7 @@ ls -la: muestra la lista de archivos en la carpeta
 touch file.txt:  crear un archivo
 
 
-git add: añade los cambios de un archivo en especifico
+git add file.txt: añade los cambios de un archivo en especifico
 git add . : añade todos los cambios realizados 
 git add -A: añade todos los cambios realizados
 git commit .a: hace el add y el commit al tiempo
@@ -36,5 +36,6 @@ git remote add origin: añade el repositorio remoto
 git remote -v: muestra el repositorio en la nube
 git push origin master: actualiza el repositorio remoto
 git mv nomvre.txt nombre.txt: Cambiar el nombre de un archivo
-git rm --cached file1.txt: eliminar archivo del repositorio 
+git rm file.txt: elimina archivo 
+git rm --cached file1.txt: eliminar archivo del repositorio local 
 git show 0.0.1: muestra los detalles del tag
