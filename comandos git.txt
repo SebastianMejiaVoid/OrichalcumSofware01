@@ -25,7 +25,7 @@ git log --oneline --decorate --all --graph: muestra commit de diferentes ramas
 git config alias.myNewAlias "large comand": se apoda un comando largo reduciendo así su sintaxis
 git branch newbranch: crea una nueva rama
 git checkout <branch name>:cambiar a una rama especifica
-git checkout -b <new branch>: crea y cambia a la rama creada
+git checkout -b dev_usted: crea y cambia a la rama creada
 git rebase <branch>: actualiza la rama
 git stash: revierte los cabios de la rama y los guarda para pasarlos a otra
 git stash apply: aplica los cambios guardados en la rama actual  
@@ -38,4 +38,4 @@ git push origin master: actualiza el repositorio remoto
 git mv nomvre.txt nombre.txt: Cambiar el nombre de un archivo
 git rm file.txt: elimina archivo 
 git rm --cached file1.txt: eliminar archivo del repositorio local 
-git show 0.0.1: muestra los detalles del tag
+git show 0.0.1: muestra los detalles del tag.
