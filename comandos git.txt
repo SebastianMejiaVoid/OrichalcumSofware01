@@ -1,6 +1,6 @@
 ﻿git init: para iniciar el repositorio
 git help: muestra la lista de comandos de git
-dcmk carpeta: crear una carpeta
+mkcd newFolder: crear una carpeta
 git config --list: muestra la lista de configuraciones de git
 
 git status: muestra el estado del proyecto
@@ -32,8 +32,9 @@ git stash apply: aplica los cambios guardados en la rama actual
 git merge <nombre de rama a unir>: actuliza la rama master (se debe estar en la rama master)
 git tag <0.0.1>: asigna un tag a un commit 
 git stash: guarda el estado del trabajo 
-git remote add origin: añade el repositorio remoto
+git remote add origin 'pegar url': añade el repositorio remoto
 git remote -v: muestra el repositorio en la nube
+git remote remove origin: desvincula el repositorio remoto
 git push origin master: actualiza el repositorio remoto
 git mv nomvre.txt nombre.txt: Cambiar el nombre de un archivo
 git rm file.txt: elimina archivo 
