@@ -38,4 +38,4 @@ git push origin master: actualiza el repositorio remoto
 git mv nomvre.txt nombre.txt: Cambiar el nombre de un archivo
 git rm file.txt: elimina archivo 
 git rm --cached file1.txt: eliminar archivo del repositorio local 
-git show 0.0.1: muestra los detalles del tag.
+git show 0.0.1: muestra los detalles del tag....
