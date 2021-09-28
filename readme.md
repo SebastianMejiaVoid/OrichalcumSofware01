@@ -1,4 +1,4 @@
-
+﻿
 Descripción de proyecto:
 
 Se creará una aplicación que permita controlar las ventas físicas y 
