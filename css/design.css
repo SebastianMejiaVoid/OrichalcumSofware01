@@ -1,10 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(138, 11, 163);
+    border: 12px, solid black;
+    padding: 30px;    
+}
+
 body{
     background-color: rgb(84, 194, 238);
 }
-header{
-    background-color: rgb(138, 11, 163);
-    border: 12px, solid black;
-    padding: 30px;
+
+table{
+    text-align: center;
+    border: 2px darkgray;
+    border-style: solid;
+}
+
+table td{
+    border: lightgray 1px solid;
 }
 footer{
     background-color: rgb(35, 35, 156);
