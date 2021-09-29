@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="../css/design.css">
+</head>
+<body>
+    <h1>
+        Welcome to the product module
+    </h1>
+    <section>
+    <!--el objetivo es que al seleccionar una opción se vaya a un formulario individual
+        dependiendo de la opción. Preguntar y/o averiguar cómo hacer--> 
+
+        <h3>Select an option:</h3>
+        <!--a continuacion se hará un menú-->
+            <select>
+                <option>Choose an action...</option>
+                <option>New product</option>
+                <option>Report generate</option>
+                <option>Search product</option>
+                <option>Update report</option>
+            </select>
+    
+    </section>             
+            
+    <!--Esto sería lo que debería haber en el formulario de registro de nuevos productos:-->
+    
+    <section>
+        <h4>New Product</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Description</th>
+                    <th>Unit value (USD)</th>
+                    <th>status (1: Available, 2: Not available)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Tolteca sculpure</td>
+                    <td>500</td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Azteca mask</td>
+                    <td>1200</td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Maya picture</td>
+                    <td>4400</td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!--Esto sería lo que debería haber en el formulario de Lista:-->
+    <section>
+        <h4>Report product</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Description</th>
+                    <th>Unit value (USD)</th>
+                    <th>status (1: Available, 2: Not available)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Tolteca sculpure</td>
+                    <td>500</td>
+                    <td>1</td> <!--Cómo hacer para que se mantenga aquí la opción que seleccioné al registrar el producto?-->
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Azteca mask</td>
+                    <td>1200</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Maya picture</td>
+                    <td>4400</td>
+                    <td>2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
+
+<!--queda pendiente lo de buscar producto-->
+<!--queda pendiente lo de actualizar lista-->
