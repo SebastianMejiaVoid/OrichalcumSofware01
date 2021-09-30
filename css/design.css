@@ -1,17 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(138, 11, 163);
+    border: 12px, solid black;
+    padding: 30px;    
+}
+
 body{
     background-color: rgb(84, 194, 238);
 }
-#cabecera{
-    background-color: rgb(138, 11, 163);
-    border: 12px, solid black;
-    padding: 30px;
+
+table{
+    text-align: center;
+    border: 2px darkgray;
+    border-style: solid;
 }
-#pie{
+
+table td{
+    border: lightgray 1px solid;
+}
+footer{
     background-color: rgb(35, 35, 156);
     border: 12px, solid blueviolet;
     padding: 10px;
     text-align: center;
 }
-#art1{
+article{
     text-align: center;  
 }
