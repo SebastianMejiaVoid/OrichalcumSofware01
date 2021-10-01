@@ -19,7 +19,9 @@ table{
 }
 
 table td{
+    
     border: lightgray 1px solid;
+    text-align: center;
 }
 footer{
     background-color: rgb(35, 35, 156);

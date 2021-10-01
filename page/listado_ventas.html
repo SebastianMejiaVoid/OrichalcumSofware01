@@ -11,6 +11,16 @@
     <body>
         <h1>Ventas Registradas</h1>
         <div>
+            <select name="Filtro">
+                <option>Vendedor</option>
+                <option>Producto</option>
+                <option>Fecha</option>
+                <option>Cliente</option>
+            </select>
+            <input type="text">
+            <button type="button">Buscar</button>
+        </div>
+        <div>
             <table>
                 <thead>
                     <tr>
@@ -20,6 +30,7 @@
                         <th>Valor Total</th>
                         <th>Cliente</th>
                         <th>Documento</th>
+                        <th>Estado</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -30,6 +41,10 @@
                         <td>50.000</td>
                         <td>Peranito Mosquera</td>
                         <td>11254658</td>
+                        <td><input type="checkbox">P</td>
+                        <td><input type="checkbox">E</td>
+                        <td><input type="checkbox">C</td>
+                        <td><input type="checkbox">Edit</td>
                     </tr>
                     <tr>
                         <td>Cabrol Becerra</td>
@@ -38,16 +53,20 @@
                         <td>60.000</td>
                         <td>Messi</td>
                         <td>12566348</td>
+                        <td><input type="checkbox">P</td>
+                        <td><input type="checkbox">E</td>
+                        <td><input type="checkbox">C</td>
+                        <td><input type="checkbox">Edit</td>
+                        
                     </tr>
                 </tbody>
             </table>
         </div>
         <div>
-            <br>
-            <button type="button"> Registrar Venta</button>
-            
+            <br>     
+            <button onclick="location.href = 'Registro_Venta.html'"> Registrar Venta</button>
             <!--El botón modificar venta solo estará disponible para el administrador-->
-            <button type="button">Modificar Venta</button>
+            <button type="button">Editar Venta</button>
         </div>
 
     </body>
