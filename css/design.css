@@ -56,6 +56,14 @@ section.login_c{
    
 }
 
+section.login_d{
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);  
+    height: 180px;
+    width: 60%;
+   
+}
+
+
 .login button{
     width: 100%;
     margin: 15px 0px;
