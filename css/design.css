@@ -9,6 +9,22 @@
     justify-content: center;
     align-items: center;
 } 
+section.container_1{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.container_2{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img.google{
     width:50px;
     align-items:center;
@@ -18,8 +34,21 @@ img.google{
 .login{
     background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);
     padding: 100px;
+    
 
 }
+.login_r{
+    height: 500px;
+    width: 30%;
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);  
+}
+section.login_b{
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);  
+    height: 500px;
+    width: 50%;
+   
+}
+
 .login button{
     width: 100%;
     margin: 15px 0px;
@@ -34,13 +63,23 @@ img.google{
 }
 
 header {
-    background-color: rgb(138, 11, 163);
+    background-color: rgb(218, 212, 219);
     border: 12px, solid black;
     padding: 30px;    
 }
+h1{
+    text-align: center;
+    color: rgb(226, 13, 180);
+}
+h2{
+    height: 50px;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e); 
+
+}
 
 body{
-    background-color: rgb(84, 194, 238);
+    background-image:url(../Images/carro-de-la-compra-en-un-supermercado-40320116.jpg);
 }
 
 table{
@@ -55,11 +94,13 @@ table td{
     text-align: center;
 }
 footer{
-    background-color: rgb(35, 35, 156);
-    border: 12px, solid blueviolet;
+    background-color: rgb(48, 52, 241);
+    border: 12px, solid rgb(23, 5, 39);
     padding: 10px;
     text-align: center;
 }
 article{
     text-align: center;  
 }
+
+
