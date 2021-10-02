@@ -4,108 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
+
     <title>Formularios</title>
     <link rel="icon" href="../Images/AncientSunStore.png">
     <link rel="stylesheet" href="../css/design.css">
 </head>
 <body>
-    <h1>
-        REGISTRO DE PRODUCTOS
-    </h1>
-    <h2>
-        Ingrese los datos del nuevo producto:
-    </h2>
-    <form methot="POST" action="Registration.html">
-        <label for="myInput">ID de producto</label>
-        <input type="text" name="ID" placeholder="ID_producto">
-        <br>
-        <label for="myInput">Descripción</label>
-        <input type="text" name="descrip" placeholder="Descripción">
-        <br>
-        <label for="myInput">Valor unitario</label>
-        <input type="text" name="value" placeholder="Valor unitario">
-        <br>
-        <label for="myInput">Estatus</label>
-        <select>
-            <option value="1">Disponible</option>
-            <option value="2">No disponible</option>
-        </select>
-        <br>
-        <br>
-        <input type="submit" value="Registrar producto">
-    </form>
-    <h1>
-        MAESTRO DE PRODUCTOS
-    </h1>
-    <h3>Seleccione una opción:</h3>
-        <select>
-            <option disabled="">Seleccione una opción...</option>
-            <option>Generar reporte</option>
-            <option>Buscar producto</option>
-            <option>Actualizar producto</option>
-        </select>
+    <section class="login_c">
+         <h1>
+                REGISTRO DE PRODUCTOS
+         </h1>
+         <h2 class="2">
+                Ingrese los datos del nuevo producto:
+         </h2>
+            <form methot="POST" action="Registration.html">
+                <label for="myInput">ID de producto</label>
+                <input type="text" name="ID" placeholder="ID_producto">
+                <br>
+                <label for="myInput">Descripción</label>
+                <input type="text" name="descrip" placeholder="Descripción">
+                <br>
+                <label for="myInput">Valor unitario</label>
+                <input type="text" name="value" placeholder="Valor unitario">
+                <br>
+                <label for="myInput">Estatus</label>
+                <select>
+                    <option value="1">Disponible</option>
+                    <option value="2">No disponible</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Registrar producto">
+            </form>
+            <h1>
+                MAESTRO DE PRODUCTOS
+            </h1>
+            <h3>Seleccione una opción:</h3>
+                <select>
+                    <option disabled="">Seleccione una opción...</option>
+                    <option>Generar reporte</option>
+                    <option>Buscar producto</option>
+                    <option>Actualizar producto</option>
+                </select>
 
-<!--Esto sería lo que debería haber en el formulario de Lista:-->
-        <section>
-            <h3>Reporte de productos</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID_Producto</th>
-                        <th>Descripción</th>
-                        <th>Valor_unitario (USD)</th>
-                        <th>Estatus <br> (1: Disponible, 2: No disponible)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1001</td>
-                        <td>Escultura Tolteca</td>
-                        <td>500</td>
-                        <td>1</td> <!--Cómo hacer para que se mantenga aquí la opción que seleccioné al registrar el producto?-->
-                    </tr>
-                    <tr>
-                        <td>1002</td>
-                        <td>Máscara Azteca</td>
-                        <td>1200</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td>1003</td>
-                        <td>Pintura Maya</td>
-                        <td>4400</td>
-                        <td>2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <!--Esto sería lo que debería haber en el formulario de Lista:-->
+                <section>
+                    <h3>Reporte de productos</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID_Producto</th>
+                                <th>Descripción</th>
+                                <th>Valor_unitario (USD)</th>
+                                <th>Estatus <br> (1: Disponible, 2: No disponible)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1001</td>
+                                <td>Escultura Tolteca</td>
+                                <td>500</td>
+                                <td>1</td> <!--Cómo hacer para que se mantenga aquí la opción que seleccioné al registrar el producto?-->
+                            </tr>
+                            <tr>
+                                <td>1002</td>
+                                <td>Máscara Azteca</td>
+                                <td>1200</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>1003</td>
+                                <td>Pintura Maya</td>
+                                <td>4400</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
 
-        <!--Esto sería lo que debería haber en la opción de busqueda:-->
-        
-        <h3>Búsqueda de productos</h3>
-        <form action="../search" method="get"> <!--en esta parte se debe dejar la dirección de nuestra página web. Cambiar-->
-            <label for="busqueda">Ingrese el ID del producto a consultar y de clic en el botón "Buscar":</label> <br>
-            <br>
-            <input type="search" id="busqueda" name="q"/>
-            <input type="submit" value="Buscar"/>
-          </form>
+                <!--Esto sería lo que debería haber en la opción de busqueda:-->
+                
+                <h3>Búsqueda de productos</h3>
+                <form action="../search" method="get"> <!--en esta parte se debe dejar la dirección de nuestra página web. Cambiar-->
+                    <label for="busqueda">Ingrese el ID del producto a consultar y de clic en el botón "Buscar":</label> <br>
+                    <br>
+                    <input type="search" id="busqueda" name="q"/>
+                    <input type="submit" value="Buscar"/>
+                </form>
 
-          <!--Estas serían las opciones de actualizar:-->
-        
-        <h3>Actualización de productos</h3>
-        <label for="actualizacion">Seleccione el tipo de acción a realizar:</label>
-        <br>
-        <br>
-        <input type="radio" name="actualizacion" id="Modificar">
-        <label>Modificar</label>
-        <br>
-        <input type="radio" name="actualizacion" id="Eliminar">
-        <label>Eliminar</label>
-        <br>
-        <input type="radio" name="actualizacion" id="Reemplazar">
-        <label>Reemplazar</label>
-        <br>        
+                <!--Estas serían las opciones de actualizar:-->
+                
+                <h3>Actualización de productos</h3>
+                <label for="actualizacion">Seleccione el tipo de acción a realizar:</label>
+                <br>
+                <br>
+                <input type="radio" name="actualizacion" id="Modificar">
+                <label>Modificar</label>
+                <br>
+                <input type="radio" name="actualizacion" id="Eliminar">
+                <label>Eliminar</label>
+                <br>
+                <input type="radio" name="actualizacion" id="Reemplazar">
+                <label>Reemplazar</label>
+                <br>        
     </section>
 </body>
 </html>
