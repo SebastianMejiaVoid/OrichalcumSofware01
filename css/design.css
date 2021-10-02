@@ -1,17 +1,106 @@
-body{
-    background-color: rgb(84, 194, 238);
+*{
+    box-sizing: border-box;
 }
-#cabecera{
-    background-color: rgb(138, 11, 163);
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+section.container_1{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.container_2{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.google{
+    width:50px;
+    align-items:center;
+    justify-content:center;
+   
+}
+.login{
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);
+    padding: 100px;
+    
+
+}
+.login_r{
+    height: 500px;
+    width: 30%;
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);  
+}
+section.login_b{
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e);  
+    height: 500px;
+    width: 50%;
+   
+}
+
+.login button{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 20px;
+    cursor: pointer;
+    position:relative;
+
+}
+.login h1{
+    color: rgb(238, 228, 228);
+    margin-bottom: 60px;
+}
+
+header {
+    background-color: rgb(218, 212, 219);
     border: 12px, solid black;
-    padding: 30px;
+    padding: 30px;    
 }
-#pie{
-    background-color: rgb(35, 35, 156);
-    border: 12px, solid blueviolet;
+h1{
+    text-align: center;
+    color: rgb(226, 13, 180);
+}
+h2{
+    height: 50px;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, #1ab6b6, #4cac6e); 
+
+}
+
+body{
+    background-image:url(../Images/carro-de-la-compra-en-un-supermercado-40320116.jpg);
+}
+
+table{
+    text-align: center;
+    border: 2px darkgray;
+    border-style: solid;
+}
+
+table td{
+    
+    border: lightgray 1px solid;
+    text-align: center;
+}
+footer{
+    background-color: rgb(48, 52, 241);
+    border: 12px, solid rgb(23, 5, 39);
     padding: 10px;
     text-align: center;
 }
-#art1{
+article{
     text-align: center;  
 }
+
+
