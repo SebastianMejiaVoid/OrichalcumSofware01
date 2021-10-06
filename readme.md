@@ -15,4 +15,4 @@ carlos alberto velez muñoz / Desarrollador.
 
 Karen Lorena Ruiz Martinez / Analista.
 
-Diana Alejandra Reyes Serrano / Product Owner.
+ / Product Owner.
