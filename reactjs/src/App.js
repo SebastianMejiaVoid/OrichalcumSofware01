@@ -20,7 +20,7 @@ document
     const ui = new UI();
 
     // Input Validación de Usuario
-    if (name === "" || price === "" || year === "") {
+    if (name === "" || price === "" || year === "" || state ==="") {
       ui.showMessage("Please Insert data in all fields", "danger");
     }
 
