@@ -11,17 +11,17 @@ document
     // Obtiene Los Valores De Los Formularios
     const name = document.getElementById("name").value,
       price = document.getElementById("price").value,
-      year = document.getElementById("id").value;
+      id = document.getElementById("id").value;
       state =document.getElementById("state").value;
 
     // Crea Nuevo Objeto Producto
-    const product = new Product(name, price, year, state);
+    const product = new Product(name, price, id, state);
 
     // Crea Una Instancia UI
     const ui = new UI();
 
     // Input Validación de Usuario
-    if (name === "" || price === "" || year === "") {
+    if (name === "" || price === "" || id === "" || state ==="") {
       ui.showMessage("Please Insert data in all fields", "danger");
     }
 
