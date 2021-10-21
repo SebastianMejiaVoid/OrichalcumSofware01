@@ -10,6 +10,7 @@ export class UI {
                     <strong>Product</strong>: ${product.name} -
                     <strong>Price</strong>: ${product.price} - 
                     <strong>Id</strong>: ${product.id}
+                    <strong>State</strong>: ${product.state}
                     <a href="#" class="btn btn-danger" name="delete">Delete</a>
                 </div>
             </div>

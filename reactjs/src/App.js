@@ -12,9 +12,10 @@ document
     const name = document.getElementById("name").value,
       price = document.getElementById("price").value,
       year = document.getElementById("id").value;
+      state =document.getElementById("state").value;
 
     // Crea Nuevo Objeto Producto
-    const product = new Product(name, price, year);
+    const product = new Product(name, price, year, state);
 
     // Crea Una Instancia UI
     const ui = new UI();
