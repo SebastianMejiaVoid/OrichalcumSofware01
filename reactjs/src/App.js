@@ -11,7 +11,7 @@ document
     // Obtiene Los Valores De Los Formularios
     const name = document.getElementById("name").value,
       price = document.getElementById("price").value,
-      id = document.getElementById("id").value;
+      id = document.getElementById("id").value,
       state =document.getElementById("state").value;
 
     // Crea Nuevo Objeto Producto
