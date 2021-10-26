@@ -1,6 +1,6 @@
 import { Product } from "./Product.js";
 import { UI } from "./UI.js";
-
+import GoogleLogin from 'react-google-login';
 // DOM Eventos
 document
   .getElementById("product-form")
@@ -36,3 +36,29 @@ document.getElementById("product-list").addEventListener("click", (e) => {
   ui.deleteProduct(e.target);
   e.preventDefault();
 });
+
+// login autenticación Google
+
+function App() {
+
+  const responseGoogle=(response)=>{
+    console.log(response);
+    
+  }
+  return (
+   
+      <div className="App">
+       <br/>
+       <br/>
+       <GoogleLogin
+       clientId='935021669176-7rtpralb7ive5surm0mfr43n3chtve48.apps.googleusercontent.com'
+       buttonText="Login"
+       onSuccess={responseGoogle}
+       onFailure={responseGoogle}
+       cookiePolicy={'single_host_origin'}
+    />
+            
+         </div>
+    
+  );
+}
