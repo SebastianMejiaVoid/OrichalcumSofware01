@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orichalcum Software Productos</title>
+    <!-- Bootswatch Cosmo Theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="icon" href="/reactjs/src/imagenes/AncientSunStore.png">
+    <link rel="stylesheet" href="/reactjs/src/App.css">
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gestión de Productos</a>
+    </nav>
+    <form  action="/reactjs/src/index.html">
+        <input type="submit" name="Principal" value="Inicio">
+    </form>
+
+    <div class="container">
+        <!-- Aplicación -->
+        <div id="App" class="row pt-5">
+
+            <!-- Formulario -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Agrega Un Producto</h4>
+                    </div>
+                    <form id="product-form" class="card-body">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nombre Del Producto" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="price" step="1000" placeholder="Precio Del Producto"
+                                class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" id="id" min='001'  step="1" placeholder="ID"
+                                class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="state" placeholder="Estado" class="form-control">
+                        </div>
+                        <input type="submit" value="Agregar" class="btn btn-primary btn-block">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Lista de Productos -->
+            <div id="product-list" class="col-md-8"></div>
+        </div>
+    </div>
+
+    <script src="App.js" type="module"></script>
+</body>
+
+</html>
