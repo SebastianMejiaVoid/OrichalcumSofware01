@@ -1,6 +1,6 @@
 import { Product } from "./Product.js";
 import { UI } from "./UI.js";
-import GoogleLogin from 'react-google-login';
+
 // DOM Eventos
 document
   .getElementById("product-form")
@@ -38,7 +38,7 @@ document.getElementById("product-list").addEventListener("click", (e) => {
 });
 
 // login autenticación Google
-
+/*
 function App() {
 
   const responseGoogle=(response)=>{
@@ -61,4 +61,4 @@ function App() {
          </div>
     
   );
-}
+}*/
